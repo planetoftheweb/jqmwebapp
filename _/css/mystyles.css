@@ -1,0 +1,179 @@
+body {
+	font-family: "Helvetica", Arial, sans-serif;
+}
+
+#home {
+	text-align: center;
+	background: url('../../images/background_viewsource.png');
+}
+
+
+#home .ui-controlgroup {
+	width: 60%;
+	margin: 0 auto;
+	max-width: 200px;
+}
+
+#home img {
+	width: 100%;
+	max-width: 375px;
+}
+
+p.homelinks a:link {
+	color: #576d75;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: .9em;
+	line-height: 1.5em;
+}
+
+#blog, #photos, #videos, #tweets {
+			background: url('../../images/background_viewsource.png');
+}
+
+#blog img.default {
+	padding-top: 15px;
+}
+
+.ui-overlay-b .ui-icon-shadow {
+	background-color: #859918 !important;
+}
+
+.ui-overlay-a .ui-icon-shadow, .ui-overlay-c .ui-icon-shadow {
+	background-color: #063642;
+}
+
+#videolist img {
+	display: block;
+	width: 90%;
+}
+
+.ui-icon-vs_video {
+	background-image: url("../../images/icon_video.png");
+}
+
+.ui-icon-vs_photo {
+	background-image: url("../../images/icon_photo.png");
+}
+
+.ui-icon-vs_blog {
+	background-image: url("../../images/icon_blog.png");
+}
+
+.ui-icon-vs_twitter {
+	background-image: url("../../images/icon_twitter.png");
+}
+
+
+#videolist h3 {
+	margin: 15px 0 5px 0;
+	height: 40px;
+	overflow: hidden;
+	font-size: 1em;
+}
+
+#videolist img {
+	width: 90%;
+}
+
+#videolist a {
+	text-decoration: none;
+	color: #777;
+}
+
+#videoplayer .ui-content {
+	margin: 0;
+	padding: 0;
+}
+
+#videoplayer iframe {
+	width: 100%;
+	min-height: 50%;
+}
+
+#videoplayer h3, #myplayer p {
+	padding: 0 5%;
+}
+
+
+#photolist img {
+	width: 100px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#photolist .ui-block-a,
+#photolist .ui-block-b,
+#photolist .ui-block-c {
+	width: 100px;
+	height: 100px;
+	padding: 2px;
+}
+
+#photolist.ui-grid-c {
+	width: 312px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+#showphoto {
+	background: black;
+}
+
+#showphoto img {
+	display: block;
+	margin: 0 auto;
+	max-width: 1024px;
+	width: 100%;
+}
+
+#showphoto .ui-content {
+	width: 100%;
+	padding: 0;
+}
+
+#tweets .ui-listview li {
+	background: #EEE;
+	color: #666;
+	font-weight: normal;
+	border-top: 1px solid #888;
+}
+
+#tweets .ui-listview a{
+	color: #555;
+}
+
+#tweets img {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: 10px 0 0 25px;
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio:2) {
+
+	.ui-icon-vs_video {
+		background-image: url("../../images/icon_video_hr.png");
+		background-size:18px 18px;
+	}
+	
+	.ui-icon-vs_photo {
+		background-image: url("../../images/icon_photo_hr.png");
+		background-size:18px 18px;
+	}
+	
+	.ui-icon-vs_blog {
+		background-image: url("../../images/icon_blog_hr.png");
+		background-size:18px 18px;
+	}
+	
+	.ui-icon-vs_twitter {
+		background-image: url("../../images/icon_twitter_hr.png");
+		background-size:18px 18px;
+	}
+
+}
+
+
